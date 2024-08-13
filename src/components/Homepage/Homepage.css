@@ -1,0 +1,58 @@
+/* HOMEPAGE */
+#homePage {
+    position: relative;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero_image_logo {
+    height: 400px;
+    display: block;
+    position: relative;
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transition: all .3s ease;
+    }
+
+    100% {
+        opacity: 1;
+        transition: all .3s ease;
+    }
+}
+
+.main_heading_text {
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.paragraph_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.paragraph_text span {
+    font-weight: 500;
+    color: #DC5F00;
+    font-size: 22px;
+}
+
+.hero_image_left_column {
+    padding-left: 6% !important;
+}
+
+.home_animated_gif img {
+    width: 100%;
+    max-width: aut0;
+}
+
+/* HOMEPAGE */
