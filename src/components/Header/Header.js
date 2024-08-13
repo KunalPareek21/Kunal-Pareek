@@ -27,9 +27,16 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/"><img src={logo} alt="Logo" /></Link>
-          <button className="navbar_ham" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <div className={`hamburger ${isHamburgerActive ? 'is-active' : ''}`} id="hamburger-1" onClick={handleHamburgerClick}>
+          <button 
+            className="navbar_ham" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+          >
+            <span className={`navbar-toggler-icon ${isHamburgerActive ? 'is-active' : ''}`} onClick={handleHamburgerClick}>
+              <div className={`hamburger ${isHamburgerActive ? 'is-active' : ''}`} id="hamburger-1">
                 <span className="line"></span>
                 <span className="line"></span>
                 <span className="line"></span>
