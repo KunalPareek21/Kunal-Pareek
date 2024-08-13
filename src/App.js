@@ -5,7 +5,7 @@ import Homepage from './components/Homepage/Homepage';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import Popup from './components/Popup/Popup';
+// import Popup from './components/Popup/Popup';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/popup" element={<Popup />} />
+        // <Route path="/popup" element={<Popup />} />
       </Routes>
     </Router>
     </div>
