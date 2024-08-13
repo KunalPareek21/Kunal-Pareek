@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kunal-Pareek/static/css/main.9c3d755a.css",
-    "main.js": "/Kunal-Pareek/static/js/main.28d70d13.js",
+    "main.css": "/Kunal-Pareek/static/css/main.4d3834cd.css",
+    "main.js": "/Kunal-Pareek/static/js/main.41f71ec8.js",
     "static/js/488.eb08c023.chunk.js": "/Kunal-Pareek/static/js/488.eb08c023.chunk.js",
     "static/media/BG.jpg": "/Kunal-Pareek/static/media/BG.21d2b3076394e2c9fe15.jpg",
     "static/media/Kunal.png": "/Kunal-Pareek/static/media/Kunal.03735219249f02092faa.png",
@@ -11,12 +11,12 @@
     "static/media/Mobile.png": "/Kunal-Pareek/static/media/Mobile.c50c9e50d6eca20842c2.png",
     "static/media/Mobile-Dark.png": "/Kunal-Pareek/static/media/Mobile-Dark.433b1967bc5f5223806f.png",
     "index.html": "/Kunal-Pareek/index.html",
-    "main.9c3d755a.css.map": "/Kunal-Pareek/static/css/main.9c3d755a.css.map",
-    "main.28d70d13.js.map": "/Kunal-Pareek/static/js/main.28d70d13.js.map",
+    "main.4d3834cd.css.map": "/Kunal-Pareek/static/css/main.4d3834cd.css.map",
+    "main.41f71ec8.js.map": "/Kunal-Pareek/static/js/main.41f71ec8.js.map",
     "488.eb08c023.chunk.js.map": "/Kunal-Pareek/static/js/488.eb08c023.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c3d755a.css",
-    "static/js/main.28d70d13.js"
+    "static/css/main.4d3834cd.css",
+    "static/js/main.41f71ec8.js"
   ]
 }
