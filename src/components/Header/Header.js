@@ -57,9 +57,9 @@ const Header = () => {
               <li className="nav-item">
                 <Link className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact">Contact</Link>
               </li>
-              <li className="nav-item">
-                <Link className={`nav-link ${location.pathname === '/popup' ? 'active' : ''}`} to="/popup">Popup</Link>
-              </li>
+              // <li className="nav-item">
+              //   <Link className={`nav-link ${location.pathname === '/popup' ? 'active' : ''}`} to="/popup">Popup</Link>
+              // </li>
               <li className="nav-item">
                 <div className="dark_mode_toggle_div">
                   <input
