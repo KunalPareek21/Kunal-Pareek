@@ -22,20 +22,13 @@ const Header = () => {
     setIsHamburgerActive(prevState => !prevState);
   };
 
-  useEffect(() => {
-    const menuItems = document.querySelectorAll('.header_navbar_row .nav-item a');
-    menuItems.forEach(item => {
-      item.classList.toggle('active', item.getAttribute('href') === location.pathname);
-    });
-  }, [location.pathname]);
-
   return (
     <div id="header_main_row" className="header_navbar_row">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/"><img src={logo} alt="Logo" /></Link>
-          <button className="navbar_ham" data-bs-toggle="collapse"  data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" data-bs-toggle="collapse"  data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar_ham" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <div className={`hamburger ${isHamburgerActive ? 'is-active' : ''}`} id="hamburger-1" onClick={handleHamburgerClick}>
                 <span className="line"></span>
                 <span className="line"></span>
@@ -57,9 +50,6 @@ const Header = () => {
               <li className="nav-item">
                 <Link className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact">Contact</Link>
               </li>
-              // <li className="nav-item">
-              //   <Link className={`nav-link ${location.pathname === '/popup' ? 'active' : ''}`} to="/popup">Popup</Link>
-              // </li>
               <li className="nav-item">
                 <div className="dark_mode_toggle_div">
                   <input
