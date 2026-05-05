@@ -45,9 +45,9 @@ const Contact = () => {
       </div>
       <div className="col-md-4 contact_us_section_right">
         <div className="contact_more_area">
-          <a href="" className="contact_info_area">
+          <span className="contact_info_area">
             <i className="fas fa-map-marker-alt"></i> Jaipur, Rajasthan
-          </a>
+          </span>
           <a href="tel:8278654715" className="contact_info_area">
             <i className="fas fa-mobile-alt"></i> +91-827-865-4175
           </a>
@@ -56,19 +56,19 @@ const Contact = () => {
           </a>
         </div>
         <div className="contact_icon_area">
-          <a href="https://www.linkedin.com/in/kunal-pareek-bba0a2225/" target="_blank" className="contact_info_social">
+          <a href="https://www.linkedin.com/in/kunal-pareek-bba0a2225/" target="_blank" rel="noreferrer" className="contact_info_social">
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://www.facebook.com/Kunal.rock.275" target="_blank" className="contact_info_social">
+          <a href="https://www.facebook.com/Kunal.rock.275" target="_blank" rel="noreferrer" className="contact_info_social">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="https://www.instagram.com/kunal.pareek/" target="_blank" className="contact_info_social">
+          <a href="https://www.instagram.com/kunal.pareek/" target="_blank" rel="noreferrer" className="contact_info_social">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
         <div className="footer_note_div">
           <p className="footer_note">
-            <span>{currentYear}</span> © All rights reserved. Designed by <a href="https://www.linkedin.com/in/kunal-pareek-bba0a2225/" target="_blank">{siteName}</a>
+            <span>{currentYear}</span> © All rights reserved. Designed by <a href="https://www.linkedin.com/in/kunal-pareek-bba0a2225/" target="_blank" rel="noreferrer">{siteName}</a>
           </p>
         </div>
       </div>
